@@ -4,7 +4,7 @@ This repository contains icons from [Material Design](https://github.com/Templar
 format suitable for use in [FreeTouchDeck](https://github.com/DustinWatts/FreeTouchDeck) (BMP/24 bits/75x75px).
 
 ## Download icons
-You can download the icons in the [Releases](https://github.com/bergdahl/FreeTouchDeck-MaterialDesignIcons/releases) tab, all 5962 of them.
+You can download the [icons.zip](https://github.com/bergdahl/FreeTouchDeck-MaterialDesignIcons/releases/download/v2021.4/icons.zip) file from the Releases tab, it contains 5962 different icons.
 
 Use the web site [https://materialdesignicons.com/](https://materialdesignicons.com/) for interactive searchs for suitable icons.
 
