@@ -5,7 +5,7 @@ format suitable for use in [FreeTouchDeck](https://github.com/DustinWatts/FreeTo
 It also creates PNG files in the same size, for use in similar projects.
 
 ## Download icons
-You can download the [icons.zip](https://github.com/bergdahl/FreeTouchDeck-MaterialDesignIcons/releases/download/v2021.4/icons.zip) file from the Releases tab, it contains 5962 different icons.
+You can download the [icons.zip](https://github.com/bergdahl/FreeTouchDeck-MaterialDesignIcons/releases/download/v2021.4/icons.zip) file from the Releases tab, it contains 6029 different icons.
 
 Use the web site [https://materialdesignicons.com/](https://materialdesignicons.com/) for interactive searchs for suitable icons.
 
