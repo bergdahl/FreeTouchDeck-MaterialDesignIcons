@@ -96,7 +96,7 @@ for svg_file in glob.iglob(os.path.join(svg_path, '*.svg')):
     bmp.save(output_file_name, 'BMP')
 
 # Create ZIP files
-print('Creating zip file bmp_icons.zip')
+print('Creating zip file icons.zip')
 with ZipFile('icons.zip', 'w') as zip:
 
     for bmp_file in glob.iglob(os.path.join(icons_dir, '*.bmp')):
