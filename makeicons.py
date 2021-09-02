@@ -92,8 +92,13 @@ for svg_file in glob.iglob(os.path.join(svg_path, '*.svg')):
 
     # Save as BMP
     output_file_name = os.path.join(icons_dir, f'{file_name}.bmp')
-    print(', bmp')
+    print(', bmp', end = '')
     bmp.save(output_file_name, 'BMP')
+
+    # Save as JPG
+    output_file_name = os.path.join(icons_dir, f'{file_name}.jpg')
+    print(', jpg')
+    bmp.save(output_file_name, 'JPEG', quality=90)
 
 # Create ZIP files
 print('Creating zip file icons.zip')
@@ -105,6 +110,9 @@ with ZipFile('icons.zip', 'w') as zip:
     for png_file in glob.iglob(os.path.join(icons_dir, '*.png')):
         file_name = os.path.basename(png_file)
         zip.write(png_file, 'png/' + file_name)
+    for jpg_file in glob.iglob(os.path.join(icons_dir, '*.jpg')):
+        file_name = os.path.basename(jpg_file)
+        zip.write(jpg_file, 'jpg/' + file_name)
 
 print('Cleaning up')
 shutil.rmtree(icons_dir)
